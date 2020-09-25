@@ -1,5 +1,5 @@
 <template>
-  <b-modal>Hello</b-modal>
+  <b-modal id="modal">Hello</b-modal>
 </template>
 <script>
 export default {

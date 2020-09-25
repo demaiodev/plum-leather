@@ -1,5 +1,19 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <b-navbar toggleable="lg" type="dark" variant="dark" sticky>
+    <b-navbar-brand href="#page-top">Plum Leather Designs</b-navbar-brand>
+    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+    <b-collapse id="nav-collapse" is-nav>
+      <b-navbar-nav class="ml-auto">
+        <b-nav-item class="nav-item" href="#services">Services</b-nav-item>
+        <b-nav-item class="nav-item" href="#portfolio">Portfolio</b-nav-item>
+        <b-nav-item class="nav-item" href="#about">About</b-nav-item>
+        <b-nav-item class="nav-item" href="#team">Team</b-nav-item>
+        <b-nav-item class="nav-item" href="#contact">Contact</b-nav-item>
+      </b-navbar-nav>
+    </b-collapse>
+  </b-navbar>
+
+  <!-- <b-navbar class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <img src="../assets/img/navbar-logo.svg" alt />
@@ -36,7 +50,7 @@
         </ul>
       </div>
     </div>
-  </nav>
+  </b-navbar>-->
 </template>
 <script>
 export default {};
