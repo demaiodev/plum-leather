@@ -23,6 +23,9 @@ import Clients from "@/components/Clients";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Modal from "@/components/Modal";
+
+import { dom } from "@fortawesome/fontawesome-svg-core";
+
 export default {
   name: "Main",
   components: {
@@ -35,6 +38,9 @@ export default {
     Clients,
     Contact,
     Footer
+  },
+  mounted() {
+    dom.watch();
   }
 };
 </script>
